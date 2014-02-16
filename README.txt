@@ -1,0 +1,1 @@
+I used an online tutorial which walks you through how to make a simple conversion app from inches to cm. My app converts dollars to Iraqi Dinars-- a highly undervalued and useful app in Minnesota.. 

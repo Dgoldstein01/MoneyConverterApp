@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dollars"
+            android:id="@+id/textDollars"
+            android:layout_marginTop="136dp"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editDollars"
+            android:layout_alignBottom="@+id/textDollars" android:layout_toRightOf="@+id/textDinars"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="الدينار العراقي"
+            android:id="@+id/textDinars"
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editDinars"
+            android:layout_alignBottom="@+id/textDinars" android:layout_toRightOf="@+id/textDinars"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert! / تحويل"
+            android:id="@+id/buttonConvert"
+            android:layout_marginTop="93dp"
+            android:layout_below="@+id/editDinars" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+
