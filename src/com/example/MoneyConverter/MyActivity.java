@@ -9,6 +9,7 @@ import android.widget.EditText;
 public class MyActivity extends Activity {
     /**
      * Called when the activity is first created.
+     * POOP TEST
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
